@@ -13,12 +13,6 @@ import skarlat.dev.ecoproject.R
 class QuizActivity : AppCompatActivity() {
 
     private var testArray = arrayListOf("1", "2", "3", "4", "5", "6", "7", "8")
-//    private var QuizPageChangeCallback = object : ViewPager2.OnPageChangeCallback() {
-//        override fun onPageSelected(position: Int) {
-//            Toast.makeText(this@QuizActivity, "Selected position: ${position}",
-//                    Toast.LENGTH_SHORT).show()
-//        }
-//    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
